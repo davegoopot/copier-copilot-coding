@@ -17,15 +17,3 @@ To create a new project using this template:
 uvx cookiecutter https://github.com/davegoopot/cookiecutter-basic
 ```
 
-Or if you have this repository cloned locally:
-
-```bash
-uvx cookiecutter /path/to/cookiecutter-basic
-```
-
-### Why use uvx?
-
-- **Isolated environment**: Runs cookiecutter in an isolated environment without affecting your global Python installation
-- **No installation required**: You don't need to install cookiecutter globally
-- **Always up-to-date**: uvx automatically uses the latest version of cookiecutter
-- **Clean**: No leftover packages cluttering your system
