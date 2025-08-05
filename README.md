@@ -13,11 +13,6 @@ You can use this cookiecutter template with [uvx](https://docs.astral.sh/uv/guid
 
 To create a new project using this template:
 
-```bash
-uvx cookiecutter https://github.com/davegoopot/cookiecutter-basic
-```
-
-You can also use the GitHub shorthand syntax:
 
 ```bash
 uvx cookiecutter gh:davegoopot/cookiecutter-basic
