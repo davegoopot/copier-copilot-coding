@@ -13,7 +13,8 @@ You can use this cookiecutter template with [uvx](https://docs.astral.sh/uv/guid
 
 To create a new project using this template:
 
+
 ```bash
-uvx cookiecutter https://github.com/davegoopot/cookiecutter-basic
+uvx cookiecutter gh:davegoopot/cookiecutter-basic
 ```
 
