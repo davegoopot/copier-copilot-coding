@@ -25,7 +25,7 @@
 
 ## AI Assistant Guidelines
 When helping with this project:
-1. Do the absolute minimum to complete the request. Do not spend time speculative implementing features that have not been explicitly asked for
+1. Do the absolute minimum to complete the request. Do not spend time speculatively implementing features that have not been explicitly asked for
 2. In particular *if asked to write a failing test DO NOT IMPLEMENT THE CODE TO PASS THE TEST at the same time*.
 3. Suggest appropriate error handling
 4. Follow established patterns in the codebase
