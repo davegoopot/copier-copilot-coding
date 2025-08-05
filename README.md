@@ -30,6 +30,6 @@ If you can't install uv, you can use [pipx](https://pipx.pypa.io/) as an alterna
 To create a new project using this template:
 
 ```bash
-pipx run cookiecutter https://github.com/davegoopot/cookiecutter-basic
+pipx run cookiecutter gh:davegoopot/cookiecutter-basic
 ```
 
