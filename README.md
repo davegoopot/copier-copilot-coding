@@ -18,3 +18,19 @@ To create a new project using this template:
 uvx cookiecutter gh:davegoopot/cookiecutter-basic
 ```
 
+## Alternative: Usage with pipx
+
+If you can't install uv, you can use [pipx](https://pipx.pypa.io/) as an alternative to run cookiecutter in an isolated environment.
+
+### Prerequisites
+
+- Install [pipx](https://pipx.pypa.io/stable/installation/)
+
+### Running the template
+
+To create a new project using this template:
+
+```bash
+pipx run cookiecutter gh:davegoopot/cookiecutter-basic
+```
+
