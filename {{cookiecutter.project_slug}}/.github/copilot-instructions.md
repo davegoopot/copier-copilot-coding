@@ -20,7 +20,7 @@
 7. Use the rule-of-three for avoiding code duplication (DRY): Code duplicated once is acceptable; code duplicated more than once should be abstracted into one place to be re-used.
 8. Methods should be at a uniform level of abstraction:
   - Functions should be either a list of high-level instructions describing a process or the implementation of one step of the process. Do not do both in the same function.
-  - Always use Command-query separation (CQS). A function could be either be a command that performs an action, or a query that returns data to the caller, but not both. In other words, asking a question should not change the answer.
+  - Always use Command-query separation (CQS) pattern. A function could be either be a command that performs an action, or a query that returns data to the caller, but not both. In other words, asking a question should not change the answer.
 
 
 ## AI Assistant Guidelines
