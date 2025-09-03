@@ -34,3 +34,47 @@ To create a new project using this template:
 pipx run cookiecutter gh:davegoopot/cookiecutter-basic
 ```
 
+## Running on an Existing Folder
+
+If you already have a project folder and want to apply this cookiecutter template to it, you can do so by generating the template in a temporary location and then copying the files you want to your existing project.
+
+### With uvx
+
+```bash
+# Generate the template in a temporary directory
+uvx cookiecutter --output-dir /tmp gh:davegoopot/cookiecutter-basic
+
+# Copy template files to your existing project (choose one approach):
+
+# Option 1: Copy all files, overwriting existing ones
+cp -r /tmp/my_project/* /path/to/your/existing/project/
+cp -r /tmp/my_project/.* /path/to/your/existing/project/ 2>/dev/null || true
+
+# Option 2: Copy only specific files you want (e.g., just .github folder)
+cp -r /tmp/my_project/.github /path/to/your/existing/project/
+
+# Clean up
+rm -rf /tmp/my_project
+```
+
+### With pipx
+
+```bash
+# Generate the template in a temporary directory
+pipx run cookiecutter --output-dir /tmp gh:davegoopot/cookiecutter-basic
+
+# Copy template files to your existing project (choose one approach):
+
+# Option 1: Copy all files, overwriting existing ones
+cp -r /tmp/my_project/* /path/to/your/existing/project/
+cp -r /tmp/my_project/.* /path/to/your/existing/project/ 2>/dev/null || true
+
+# Option 2: Copy only specific files you want (e.g., just .github folder)
+cp -r /tmp/my_project/.github /path/to/your/existing/project/
+
+# Clean up
+rm -rf /tmp/my_project
+```
+
+**Note:** The template will generate a folder named based on your project name (default: `my_project`). You can customize this by providing different answers when prompted during the cookiecutter execution, or use `--no-input` to accept defaults.
+
