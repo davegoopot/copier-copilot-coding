@@ -1,0 +1,23 @@
+# Copier template configuration
+project_name:
+  type: str
+  default: "My Project"
+  help: "Your project name"
+
+project_description:
+  type: str  
+  default: "A brief description of the project"
+  help: "A brief description of the project"
+
+author_name:
+  type: str
+  default: "Your Name" 
+  help: "Author name"
+
+# Computed project slug (similar to cookiecutter approach)
+project_slug:
+  type: str
+  default: "{{ project_name|lower|replace(' ', '_')|replace('-', '_') }}"
+  when: false  # This makes it computed, not prompted
+
+_templates_suffix: ".jinja"
