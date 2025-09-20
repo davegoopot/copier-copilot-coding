@@ -21,3 +21,8 @@ project_slug:
   when: false  # This makes it computed, not prompted
 
 _templates_suffix: ".jinja"
+
+# copier.yml
+
+_exclude:
+  - README.md
