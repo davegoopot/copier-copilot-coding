@@ -1,6 +1,8 @@
 # copier-basic
 Generic foundation for a coding project.
 
+This is a [Copier](https://copier.readthedocs.io/) template for creating new projects. Copier is a library and command-line utility for rendering project templates.
+
 ## Usage with uvx
 
 You can use this copier template with [uvx](https://docs.astral.sh/uv/guides/tools/) to run copier in an isolated environment without installing it globally.
