@@ -24,7 +24,5 @@ _templates_suffix: ".jinja"
 
 # copier.yml
 
-_exclude:
-  - README.md
-  - LICENSE
-  - copier.yml
+_subdirectory: template
+
